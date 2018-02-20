@@ -1,0 +1,45 @@
+/*# italicized text for the animal's interesting fact
+  # bolded labels for the animal's list items (e.g. 'Habitat')
+  # no dots for the animal's list items
+  # border around the animal's name, image, and information
+  # border around the animal's information
+  # spacing between the animal's name, image, and information (you will need to use the property padding)*/
+
+body{
+	font-family: "times new roman", serif;
+}
+
+.card {
+	 border: thin solid #66913b;
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(196,255,14,0.3); 
+  box-shadow:   10px 10px 5px #c2d282;;
+}
+.img {
+	
+	width: 288px;
+  padding: 5px;
+}
+  h2{
+  	text-align: center;
+  	font-family: palatino linotype;
+  }
+
+ .horse-info{ 
+	   border:thin solid #66913b;
+  margin-top: 10px;
+ padding: inherit;
+}
+ 
+ ul{
+	  list-style-type: none;
+  padding: 10px;
+ }
+ .fact{
+	 font-weight: bold;
+ }
+.describtion{
+	font-style: italic;
+}
